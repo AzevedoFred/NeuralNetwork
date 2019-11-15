@@ -1,0 +1,29 @@
+1. Criando o ambiente virtual
+
+Nessa primeira etapa você já deve ter o Anaconda Python 3.6 instalado. Se não, basta fazer o download do instalador nesse link. A instalação é bem simples bastando clicar Next várias vezes.
+Agora, com o Anaconda Python 3.6 instalado, abra o Anaconda Navigator e clique na aba Environments. Em seguida clique no botão Create. No campo Name digite um nome para seu ambiente virtual, evite espaços, acentos e caracteres especiais enquanto estiver escolhendo o nome. Eu escolhi MyVenv. Por fim clique em Create.
+Pronto, seu ambiente virtual foi criado!!!
+
+2. Ativando seu ambiente virtual
+
+Abra o Anaconda Prompt no seu Windows. Se estiver com dificuldade para encontrá-lo, utilize a busca do próprio Windows. Ao abrir o prompt você estará com uma tela como a abaixo.
+
+Recomendo deixar seus projetos dentro do drive C para facilitar a busca. O projeto que uparemos para o Github se encontra na pasta MyProject dentro do drive C. Primeiro devemos navegar até esta pasta. Para sair da pasta atual e ir para uma pasta um nível acima, digite o comando cd .. no prompt e aperte a tecla Enter, como na figura abaixo:
+
+MyProject está dentro do drive C, portanto precisamos sair da pasta Users. Repetiremos o já feito acima.
+
+Agora precisamos entrar na pasta MyProject. Digite o comando cd MyProject como na figura abaixo:
+
+Se você conseguiu, verá (MyVenv) no lugar de (base).
+
+3. Enviando o projeto para o Github
+
+git init
+
+git config user.name "AzevedoFred"
+
+git config user.email "fredijo@gmail.com"
+
+
+
+
